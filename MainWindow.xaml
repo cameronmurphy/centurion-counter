@@ -19,7 +19,7 @@
             <TextBlock x:Name="SecondsRemainingTextBlock" Foreground="LightSkyBlue" TextAlignment="Center" VerticalAlignment="Center">10</TextBlock>
         </Viewbox>
         <Viewbox Grid.Column="1">
-            <TextBlock x:Name="ShotsCompleteTextBlock" Foreground="LightGoldenrodYellow" TextAlignment="Center" VerticalAlignment="Center">100</TextBlock>
+            <TextBlock x:Name="ShotsCompleteTextBlock" Foreground="LightGoldenrodYellow" TextAlignment="Center" VerticalAlignment="Center">0</TextBlock>
         </Viewbox>
     </Grid>
 </Window>
