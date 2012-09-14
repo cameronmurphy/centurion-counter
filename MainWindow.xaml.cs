@@ -45,7 +45,7 @@ namespace Camurphy.CenturionCounter
 
         private void KeyUpHandler(object sender, KeyEventArgs e)
         {
-            if (m_GameTimer.IsEnabled == false)
+            if (e.Key == Key.F5 && m_GameTimer.IsEnabled == false)
             {
                 m_GameTimer.Start();
             }
